@@ -218,8 +218,7 @@ a{
 }
 
 .benefits{
-    padding-top: 94px;
-    padding-bottom: 47px;
+    padding-bottom: 0;
 }
 
 .visually-hidden{
@@ -270,11 +269,6 @@ a{
         margin-bottom: 50px;
 }
 
-.service{
-    padding-top: 47px;
-    padding-bottom: 94px;
-}
-
 .service__list{
     display: flex;
 }
@@ -304,7 +298,6 @@ a{
 
 .team{
     background-color: var(--fifth-color);
-    padding: 94px 0;
 }
 
 .team__list{
@@ -369,10 +362,6 @@ a{
 .team__social-icon:hover,
 .team__social-icon:focus{
     fill: var(--third-color);
-}
-
-.clients{
-    padding: 94px 0;
 }
 
 .clients__list{
@@ -527,17 +516,12 @@ a{
 }
 
 .footer__mailing-btn:hover,
-.footer__mailing-btn:active,
 .footer__mailing-btn:focus {
     background-color: var(--sixth-color);
 }
 
 .footer__btn-icon{
     margin-left: 10px;
-}
-
-.work{
-    padding: 94px 0;
 }
 
 .work__filters-list{
@@ -567,7 +551,6 @@ a{
 }
 
 .work__filters-btn:hover,
-.work__filters-btn:active,
 .work__filters-btn:focus {
     background-color: var(--acent-color);
     color: var(--third-color);
@@ -588,12 +571,12 @@ a{
     transition: box-shadow var(--primary-transition);
 }
 
-.work__project-list{
+.work__project-link{
     transition: box-shadow var(--primary-transition);
 }
 
-.work__project-list:hover,
-.work__project-list:focus{
+.work__project-link:hover,
+.work__project-link:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
                 0px 4px 4px rgba(0, 0, 0, 0.06), 
                 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -617,7 +600,7 @@ a{
     transition: transform var(--primary-transition);
 }
 
-.project:hover .work__project-overlay{
+.work__project-item:hover .work__project-overlay{
     transform: translateY(0);
 }
 
@@ -864,7 +847,6 @@ a{
   }
 
   .modal__invite-btn:hover,
-  .modal__invite-btn:active,
   .modal__invite-btn:hover:focus{
     background: var(--sixth-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

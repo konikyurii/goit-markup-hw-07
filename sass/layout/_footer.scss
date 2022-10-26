@@ -1,0 +1,35 @@
+.footer{
+    background-color: var(--fourth-color);
+    padding: 60px 0;
+}
+
+.footer__section{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__address{
+    margin-top: 20px;
+}
+
+.footer__address-list li:not(:last-child){
+    margin-bottom: 9px;
+}
+
+.footer__address-item{
+        font-size: 14px;
+        line-height: 1.71;
+        font-style: normal;
+        color: var(--seventh-color);
+        transition: background-color var(--primary-transition), 
+                    color var(--primary-transition);
+
+            &:hover,
+            &:focus{
+                color: var(--acent-color);
+            }
+}
+
+.footer__address-item--white{
+    color: var(--third-color);
+}
